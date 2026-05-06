@@ -50,11 +50,9 @@ test_file_xor/
 ## Сборка Release через Qt Creator
 
 1. Открыть `CMakeLists.txt` в Qt Creator
-2. Выбрать kit с Qt 6 и MinGW
-3. В конфигурации сборки выбрать `Release`
-4. Нажать `Configure Project`
-5. Собрать проект через `Build`
-6. Исполняемый файл будет в release build-папке, имя файла: `apptest_file_xor.exe`
+2. Выбрать kit с Qt 6 и MinGW, в конфигурации сборки выбрать `Release`
+3. Собрать проект
+4. Исполняемый файл будет в build папке, имя файла: `apptest_file_xor.exe`
 
 ## Запуск тестов
 
